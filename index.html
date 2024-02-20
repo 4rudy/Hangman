@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Hangman</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap" rel="stylesheet">
+        <script src="scripts/wordlist.js" defer></script>
+        <script src="scripts/scripts.js" defer></script>
+    </head>
+
+
+    <body>
+        <div class="game-modal">
+            <div class="content">
+                <img src="images/loser.gif" alt="Lost gif">
+                <h4>LOSER</h4>
+                <p>The corrent word was: <b>ranbow</b></p>
+                <button class="play-again">Play Again</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hangman-box">
+                <img src="images/hangman-0.svg" alt="hangman" class="hangman">
+                <h1 class="title">Hangman</h1>
+            </div>
+            <div class="game-box">
+                <ul class="word-display"></ul>
+                <h4 class="hint-text">
+                    Hint:
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
+                </h4>
+                <h4 class="guesses-text">
+                    Incorrect Guesses:
+                    <b>0/6</b>
+                </h4>
+                <div class="keyboard"></div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,4 +1,4 @@
-A simple hangman game made with HTML, CSS, and Javascript
+A simple hangman game made with HTML, CSS, and Javascript.
 Players have 6 tries to guess the word before losing.
 
 Plans:
